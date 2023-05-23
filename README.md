@@ -25,4 +25,5 @@ record_name="www.example.com"
 */10 * * * * /root/ddns/cf-ddns.sh >/dev/null 2>&1
 ```
 
-保存并退出。这里设置每10分钟运行一次cf-ddns.sh脚本，输入service crond status，可以看到contab的运行状态。
+保存并退出。这里设置每10分钟运行一次cf-ddns.sh脚本，输入service crond status 或者 systemctl status cron.service
+，可以看到contab的运行状态。
