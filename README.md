@@ -1,7 +1,7 @@
 ### 获取脚本
 
 ```bash
-wget https://raw.githubusercontent.com/zuig/cf-ddns/master/cf-ddns.sh -O /root/ddns/cf-ddns.sh && chmod +x /root/ddns/cf-ddns.sh
+mkdir -p /root/ddns && wget https://raw.githubusercontent.com/zuig/cf-ddns/master/cf-ddns.sh -O /root/ddns/cf-ddns.sh && chmod +x /root/ddns/cf-ddns.sh
 ```
 
 ### 修改配置
