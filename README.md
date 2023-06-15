@@ -5,7 +5,9 @@ mkdir -p /root/ddns && wget https://raw.githubusercontent.com/zuig/cf-ddns/maste
 ```
 
 ### 修改配置
-
+```bash
+vi /root/ddns/cf-ddns.sh
+```
 ```bash
 # cloudflare登录邮箱
 auth_email="user@example.com"
